@@ -269,6 +269,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\SumRootLeaf.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SurrReg.h"
+				>
+			</File>
+			<File
 				RelativePath=".\targetver.h"
 				>
 			</File>

@@ -17,13 +17,14 @@
 //#include "Candy.h"
 //#include "GasStation.h"
 //#include "PalDroParti.h"
-#include "ReverseStr.h"
+//#include "ReverseStr.h"
+//#include "SurrReg.h"
+#include "SumRootLeaf.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//new CLinkListCycle();//new CReorderList();//CLRUCache();//CInserSortLinkedList();//CSortLinkedList();//CMaxPtLine();
-	BasicQue* bq = new CReverseStr();//new CPalDroParti();//new CGasStation();//new CWordBreak();
+	BasicQue* bq = new CSumRootLeaf();
 	bq->doWork();
 
 	cout << endl;
