@@ -24,7 +24,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	BasicQue* bq = new CSumRootLeaf();
+	BasicQue* bq = new CSumRootLeaf(); //
 	bq->doWork();
 
 	cout << endl;
