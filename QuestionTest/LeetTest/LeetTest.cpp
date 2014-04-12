@@ -19,12 +19,13 @@
 //#include "PalDroParti.h"
 //#include "ReverseStr.h"
 //#include "SurrReg.h"
-#include "SumRootLeaf.h"
-
+//#include "SumRootLeaf.h"
+//#include "LongConsecSeq.h"
+#include "WordLadder.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	BasicQue* bq = new CSumRootLeaf(); //
+	BasicQue* bq = new CWordLadder();
 	bq->doWork();
 
 	cout << endl;
