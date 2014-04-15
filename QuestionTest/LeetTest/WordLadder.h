@@ -107,7 +107,7 @@ public:
 				}
 			}
 			// if cannot get any valid words of next level, cease the search
-			if (nextLev.empty()) {
+			if (nextLev.empty() && isFound == false) {
 				return res;
 			}
 			
