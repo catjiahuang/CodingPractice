@@ -237,6 +237,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\LongConsecSeq.h"
+				>
+			</File>
+			<File
 				RelativePath=".\LRUCache.h"
 				>
 			</File>
@@ -282,6 +286,10 @@
 			</File>
 			<File
 				RelativePath=".\WordBreak.h"
+				>
+			</File>
+			<File
+				RelativePath=".\WordLadder.h"
 				>
 			</File>
 		</Filter>
