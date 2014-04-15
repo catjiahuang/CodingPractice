@@ -6,6 +6,7 @@
 #include <iostream>
 #include <queue>
 #include <unordered_set>
+#include <unordered_map>
 #include <string>
 
 using namespace std::tr1;
@@ -56,6 +57,69 @@ public:
 		}
 		return 0;
 	}
+
+	// question 2: return all found paths
+	void retAllPaths(string start, string last, unordered_map<string,vector<string>> &paths, vector<string> &currRes, vector<vector<string>> &res) {
+		if (last == start) {
+			vector<string> tRes = currRes;
+			tRes.push_back(last);
+			reverse(tRes.begin(), tRes.end());
+			res.push_back(tRes);
+		}
+		else {
+			for (int i = 0; i < paths[last].size(); ++i) {
+				vector<string> tRes = currRes;
+				tRes.push_back(last);
+				retAllPaths(start, paths[last][i], paths, tRes, res);
+			}
+		}
+	}
+	
+	vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict) {
+		unordered_set <string> currLev, nextLev;
+		unordered_map <string, vector<string>> paths; // map from found current word to all predecessor words
+		currLev.insert(start);
+		vector<vector<string>> res;
+		
+		bool isFound = false;
+		while (isFound == false) {
+			// remove visited words of current level
+			for (unordered_set<string>::iterator it = currLev.begin(); it != currLev.end(); ++it) {
+				dict.erase(*it);
+			}
+			// check valid variations
+			for (unordered_set <string>::iterator it = currLev.begin(); it != currLev.end(); ++it) {
+				string str = *it;
+				for (int i = 0; i < str.length(); ++i) {
+					for (char c = 'a'; c <= 'z'; ++c) {
+						string tStr = str;
+						tStr[i] = c;
+						if (tStr == end) {
+							isFound = true;
+							paths[tStr].push_back(str); // record previous node
+							break;
+						}
+						if (dict.find(tStr) != dict.end()) {
+							nextLev.insert(tStr);
+							paths[tStr].push_back(str); // record previous node
+						}
+					}
+				}
+			}
+			// if cannot get any valid words of next level, cease the search
+			if (nextLev.empty()) {
+				return res;
+			}
+			
+			currLev = nextLev;
+			nextLev.clear();
+		}
+		
+		// retrive results
+		vector<string> currRes;
+		retAllPaths(start, end, paths, currRes, res);
+		return res;
+    }
 };
 
 class CWordLadder: public BasicQue {
@@ -70,7 +134,14 @@ public:
 		Solution sln;
 		string start = "hit",
 			   end = "cog";
-		cout << sln.ladderLength(start, end, dict);
+		//cout << sln.ladderLength(start, end, dict);
+		vector<vector<string>> res = sln.findLadders(start, end, dict);
+		for (int i = 0; i < res.size(); ++i) {
+			for (int j = 0; j < res[i].size(); ++j) {
+				cout << res[i][j] << ", ";
+			}
+			cout << endl;
+		}
 	}
 };
 
