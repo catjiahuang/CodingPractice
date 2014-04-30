@@ -209,6 +209,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\ByteVal.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CountBit.h"
 				>
 			</File>
