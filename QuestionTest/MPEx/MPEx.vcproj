@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="LeetTest"
-	ProjectGUID="{77C75D03-7973-4C4B-816F-DB1F9732E1AA}"
-	RootNamespace="LeetTest"
+	Name="MPEx"
+	ProjectGUID="{890C0C47-02D6-4259-94AE-696FAA5EFA98}"
+	RootNamespace="MPEx"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -45,6 +45,7 @@
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
+				OpenMP="true"
 				UsePrecompiledHeader="2"
 				WarningLevel="3"
 				DebugInformationFormat="4"
@@ -171,7 +172,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\LeetTest.cpp"
+				RelativePath=".\MPEx.cpp"
 				>
 			</File>
 			<File
@@ -201,115 +202,7 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\BasicQue.h"
-				>
-			</File>
-			<File
-				RelativePath=".\Candy.h"
-				>
-			</File>
-			<File
-				RelativePath=".\CloneGraph.h"
-				>
-			</File>
-			<File
-				RelativePath=".\CloneGraph2.h"
-				>
-			</File>
-			<File
-				RelativePath=".\CopyListRandPointer.h"
-				>
-			</File>
-			<File
-				RelativePath=".\DistinctSeq.h"
-				>
-			</File>
-			<File
-				RelativePath=".\EvaExp.h"
-				>
-			</File>
-			<File
-				RelativePath=".\FlattenTreeToList.h"
-				>
-			</File>
-			<File
-				RelativePath=".\GasStation.h"
-				>
-			</File>
-			<File
-				RelativePath=".\InserSortLinkedList.h"
-				>
-			</File>
-			<File
-				RelativePath=".\LinkListCycle.h"
-				>
-			</File>
-			<File
-				RelativePath=".\LongConsecSeq.h"
-				>
-			</File>
-			<File
-				RelativePath=".\LRUCache.h"
-				>
-			</File>
-			<File
-				RelativePath=".\MaxPtLine.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PalDroParti.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PathSum.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PostOrderTrav.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ReorderList.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ReverseList.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ReverseStr.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SortLinkedList.h"
-				>
-			</File>
-			<File
 				RelativePath=".\stdafx.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SumRootLeaf.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SurrReg.h"
-				>
-			</File>
-			<File
-				RelativePath=".\targetver.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ValidPalin.h"
-				>
-			</File>
-			<File
-				RelativePath=".\WordBreak.h"
-				>
-			</File>
-			<File
-				RelativePath=".\WordLadder.h"
 				>
 			</File>
 		</Filter>

@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuestionTest", "QuestionTest\QuestionTest.vcproj", "{29624D51-ADA6-4551-ACC2-D8D1854422E1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BOPTest", "QuestionTest\QuestionTest.vcproj", "{29624D51-ADA6-4551-ACC2-D8D1854422E1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetTest", "LeetTest\LeetTest.vcproj", "{77C75D03-7973-4C4B-816F-DB1F9732E1AA}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZindagiGames", "ZindagiGames\ZindagiGames.vcproj", "{F4EA835A-DBB3-4587-A2BA-43DCD95CDF3B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Red5", "Red5\Red5.vcproj", "{E54155C1-F2A6-4040-A755-9B85D9EDA0F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CloudImpTest", "CloudImpTest\CloudImpTest.vcproj", "{8D174675-B116-44E0-B947-9547347F1AD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MPEx", "MPEx\MPEx.vcproj", "{890C0C47-02D6-4259-94AE-696FAA5EFA98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmazonStudio", "AmazonStudio\AmazonStudio.vcproj", "{799997AA-9D89-4C5B-8967-8DBB287B9319}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShaderStudy", "ShaderStudy\ShaderStudy.vcproj", "{D0EE2D33-5FED-4527-9602-3A2A461F6D1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,22 @@ Global
 		{E54155C1-F2A6-4040-A755-9B85D9EDA0F4}.Debug|Win32.Build.0 = Debug|Win32
 		{E54155C1-F2A6-4040-A755-9B85D9EDA0F4}.Release|Win32.ActiveCfg = Release|Win32
 		{E54155C1-F2A6-4040-A755-9B85D9EDA0F4}.Release|Win32.Build.0 = Release|Win32
+		{8D174675-B116-44E0-B947-9547347F1AD3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D174675-B116-44E0-B947-9547347F1AD3}.Debug|Win32.Build.0 = Debug|Win32
+		{8D174675-B116-44E0-B947-9547347F1AD3}.Release|Win32.ActiveCfg = Release|Win32
+		{8D174675-B116-44E0-B947-9547347F1AD3}.Release|Win32.Build.0 = Release|Win32
+		{890C0C47-02D6-4259-94AE-696FAA5EFA98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{890C0C47-02D6-4259-94AE-696FAA5EFA98}.Debug|Win32.Build.0 = Debug|Win32
+		{890C0C47-02D6-4259-94AE-696FAA5EFA98}.Release|Win32.ActiveCfg = Release|Win32
+		{890C0C47-02D6-4259-94AE-696FAA5EFA98}.Release|Win32.Build.0 = Release|Win32
+		{799997AA-9D89-4C5B-8967-8DBB287B9319}.Debug|Win32.ActiveCfg = Debug|Win32
+		{799997AA-9D89-4C5B-8967-8DBB287B9319}.Debug|Win32.Build.0 = Debug|Win32
+		{799997AA-9D89-4C5B-8967-8DBB287B9319}.Release|Win32.ActiveCfg = Release|Win32
+		{799997AA-9D89-4C5B-8967-8DBB287B9319}.Release|Win32.Build.0 = Release|Win32
+		{D0EE2D33-5FED-4527-9602-3A2A461F6D1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0EE2D33-5FED-4527-9602-3A2A461F6D1C}.Debug|Win32.Build.0 = Debug|Win32
+		{D0EE2D33-5FED-4527-9602-3A2A461F6D1C}.Release|Win32.ActiveCfg = Release|Win32
+		{D0EE2D33-5FED-4527-9602-3A2A461F6D1C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
